@@ -1,0 +1,31 @@
+{
+    "name": "react-bp",
+    "version": "1.0.0",
+    "description": "React Boilerplate",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "concurrently \"sass --watch public/css/style.scss:public/css/style.css\" \"webpack -w\" \"nodemon server\" "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nverges/React-BP.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nverges/React-BP/issues"
+    },
+    "homepage": "https://github.com/nverges/React-BP#readme",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "body-parser": "^1.18.2",
+        "concurrently": "^3.5.1",
+        "mongoose": "^5.0.7",
+        "morgan": "^1.9.0",
+        "path": "^0.12.7",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-router-dom": "^4.2.2"
+    }
+}
